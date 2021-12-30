@@ -4,11 +4,14 @@
   "description": "hello NODEJS",
   "main": "demo02.js",
   "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "node"
   ],
   "author": "huypham",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
